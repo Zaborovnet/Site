@@ -1,0 +1,232 @@
+
+body {
+    line-height: 1.47059;
+    letter-spacing: -.022em;
+    background-color: #343131;;
+
+}
+body, input, textarea, select, button {
+    font-synthesis: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    direction: ltr;
+    text-align: left;
+}
+
+section {
+    display: block;
+}
+
+.main {
+    position: relative;
+}
+:lang(ru) {
+    quotes: "« " " »";
+}
+main, summary, details {
+    display: block;
+}
+
+figure {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+:root {
+        --white: #ffffff;
+        --white-2: #ffffff99;
+        --font-size-l: 48px;
+        --font-size-m: 36px;
+        --font-size-s: 25px;
+        --font-size-xl: 55px;
+        --font-size-xs: 24px;
+        --font-size-xxl: 64px;
+        --font-family-montserrat: "Montserrat", Helvetica;
+    
+}
+.section-hero-product {
+    padding: 0px 0 100px;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+.section-content1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1920px;
+    
+    
+}
+.section-content {
+    margin-left: 91px;
+    margin-right: 91px;
+    width: 1920px;
+
+    
+}
+
+.large-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+}
+.large-centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+.medium-8 {
+    flex-basis: 66.66667%;
+    max-width: 66.66667%;
+}
+.large-7 {
+    flex-basis: 58.33333%;
+    max-width: 58.33333%;
+}
+.violator-frameless {
+    color: #ca1717;
+
+
+}
+.violator-frameless2 {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-weight: 800;
+}
+.violator-frameless3 {
+    
+    font-family: var(--font-family-montserrat);
+        color: var(--white);
+        font-weight: 100;
+
+    
+
+}
+.typography-hero-product-headline {
+    background-color: transparent;
+    color: transparent;
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-weight: 800;
+    height: auto;
+    left: 91px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    text-align: left;
+    top: 57px;
+    width: 1201px;
+}
+.has-dynamic-content{
+    background-color: transparent;
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxl);
+    font-weight: 800;
+    height: auto;
+    left: 91px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    text-align: left;
+    top: 259px;
+    width: 1159px;
+    margin-top: 100px;
+}
+
+.bigsur {
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+    background: linear-gradient(45.06deg, rgba(8, 76, 138, 0.327083) 28.21%, rgba(58, 87, 189, 0.166667) 46.79%, rgba(219, 17, 17, 0.348) 67.35%) ;
+    background-position-x: center;
+    background-position-y: bottom;
+    height: 950px;
+}
+.hero-product-link{
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 300;
+
+
+}
+
+.flex-block{
+    margin-top: 170px;
+}
+
+.hero-product-link1{
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 800;
+
+}
+.left{
+    margin-left: 148px;
+
+}
+.right{
+     margin-left: 239px;
+    margin-right: 91px;
+
+}
+
+.picture {
+    z-index: 1;
+    position: absolute;
+    left: 0px;
+    top: 950px;
+    right: 0px;
+    bottom: 0px;
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+    background-image: url(./images/v94_19.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    height: 1000px;
+}
+.pic2 {
+    z-index: 1;
+    position: absolute;
+    top: 931px;
+    bottom: 0px;
+    filter: blur(5px);
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+    background-image: url(./images/v94_19.png);
+    background-position-x: center;
+    background-position-y: bottom;
+    height: 950px;
+}
+.section-content2 {
+    z-index: 2;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1920px;
+    
+}
+.has-dynamic-content1{
+    z-index: 2;
+    position: relative;
+    background-color: transparent;
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxl);
+    font-weight: 800;
+    height: auto;
+    margin-left: 91px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    text-align: left;
+    margin-top: 5px;
+height: 328px;
+top: 297px;
+}
+.section-hero-product {
+    padding: 0px 0 0px;
+    overflow: hidden;
+    margin-top: 0;
+}
+
